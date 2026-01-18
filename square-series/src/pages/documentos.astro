@@ -1,0 +1,14 @@
+---
+import AppLayout from "../layouts/AppLayout.astro";
+import DocCard from "../components/DocCard.astro";
+---
+
+<AppLayout title="Mis documentos">
+  <h1 class="mb-4 text-xl font-semibold">Mis documentos</h1>
+
+  <div class="space-y-3">
+    <DocCard title="DNI Digital" subtitle="Ver credencial (MUESTRA)" href="/dni" />
+    <DocCard title="Licencia" subtitle="No disponible (mock)" href="#" />
+    <DocCard title="Cédula" subtitle="No disponible (mock)" href="#" />
+  </div>
+</AppLayout>

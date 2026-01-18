@@ -1,0 +1,9 @@
+---
+import AppLayout from "../layouts/AppLayout.astro";
+import DniEditor from "../components/dni/DniEditor.tsx";
+---
+
+<AppLayout title="DNI Digital">
+  <h1 class="mb-4 text-xl font-semibold">DNI Digital (MUESTRA)</h1>
+  <DniEditor client:load />
+</AppLayout>
